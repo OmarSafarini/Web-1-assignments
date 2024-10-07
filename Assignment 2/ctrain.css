@@ -1,0 +1,112 @@
+
+body{
+    background-color:rgb(107, 107, 107);
+}
+
+header {
+
+    background-color: rgb(51, 81, 149);
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(234, 234, 234);
+    color: rgb(255, 255, 255); 
+    padding: 40px;
+    margin: 20px;
+    font-style: italic;
+    font-size: 1.7em;
+    line-height: 1.5;
+    
+}
+
+.information-about-me {
+
+    width: 80%;
+    padding: 20px;
+    color: white;
+    text-transform: capitalize;
+    font-size: 0.9em;
+    letter-spacing: 2px;
+    font-style: oblique;
+}
+
+.hobbies
+{
+    background-color:rgb(234, 234, 234);
+    margin: 20px; 
+    padding: 25px;
+    border: 10px solid #a1a2a3; 
+    border-width: 10px; 
+}
+
+.hobbies h2
+{
+    text-align: center;
+    font-size: 2em;
+}
+
+
+.hobbies ol {
+
+    display: flex; 
+    align-items:center;
+    justify-content: space-between;
+
+}
+
+.hobbies img{
+
+    width: 240px; /* Set hobby image width */
+    height: 240px; /* Set hobby image height */
+    border-radius: 5px; /* Slightly rounded corners */
+
+}
+
+figure {
+    margin: 85px 0; 
+}
+
+.hobbies .guess-the-hobby {
+
+    display: flex; /* Make it a flex container */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically if needed */
+    font-size: 1.5em; /* Font size */
+    margin-top: 60px; /* Optional: Add margin for spacing */
+    margin-bottom: 30px; 
+    font-style:initial;
+    text-transform: capitalize;
+
+}
+
+.hobbies .guess-the-hobby input {
+
+    margin-left: 170px; 
+
+}
+
+.future-goals
+{
+    display: flex; 
+    color: white;
+    font-size: 1.5em;
+    background-color: rgb(51, 81, 149);
+    margin: 20px;
+    padding: 20px;
+    padding-left: 52px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    line-height: 1.3;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: oblique;
+        
+}
+
+.links {
+    text-align: center;
+    font-size: larger;
+
+}
+
+.links a {
+    color: white; 
+}
